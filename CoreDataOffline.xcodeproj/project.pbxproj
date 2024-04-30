@@ -37,13 +37,13 @@
 		34B6B1DE2BDC1375005C45F5 /* SwinjectStoryboard in Frameworks */ = {isa = PBXBuildFile; productRef = 34B6B1DD2BDC1375005C45F5 /* SwinjectStoryboard */; };
 		34B6B1E62BDC1B5B005C45F5 /* CoreDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6B1E52BDC1B5B005C45F5 /* CoreDataProtocol.swift */; };
 		34B6B1E82BDC1C0C005C45F5 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6B1E72BDC1C0C005C45F5 /* CoreDataStack.swift */; };
-		34B6B1EE2BDC1D60005C45F5 /* ImageData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34B6B1EC2BDC1D60005C45F5 /* ImageData.xcdatamodeld */; };
 		34B6B1F02BDC2288005C45F5 /* CoreDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6B1EF2BDC2288005C45F5 /* CoreDataSource.swift */; };
 		34B6B1F42BDC2389005C45F5 /* DataModelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6B19A2BDBDD90005C45F5 /* DataModelResponse.swift */; };
 		34B6B1F62BDC299C005C45F5 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6B1F52BDC299C005C45F5 /* CoreDataManager.swift */; };
 		34B6B2022BDC2E59005C45F5 /* CIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6B2012BDC2E59005C45F5 /* CIError.swift */; };
 		34B6B2042BDC304B005C45F5 /* ImageDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6B2032BDC304B005C45F5 /* ImageDataRepository.swift */; };
 		34B6B2062BDC3054005C45F5 /* ImageDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6B2052BDC3054005C45F5 /* ImageDataProtocol.swift */; };
+		34F25B452BE0C89400A86715 /* ImageData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34F25B432BE0C89400A86715 /* ImageData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,12 +102,12 @@
 		34B6B1D02BDC1040005C45F5 /* SwinjectStoryboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectStoryboardExtension.swift; sourceTree = "<group>"; };
 		34B6B1E52BDC1B5B005C45F5 /* CoreDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProtocol.swift; sourceTree = "<group>"; };
 		34B6B1E72BDC1C0C005C45F5 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
-		34B6B1ED2BDC1D60005C45F5 /* ImageData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageData.xcdatamodel; sourceTree = "<group>"; };
 		34B6B1EF2BDC2288005C45F5 /* CoreDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataSource.swift; sourceTree = "<group>"; };
 		34B6B1F52BDC299C005C45F5 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		34B6B2012BDC2E59005C45F5 /* CIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIError.swift; sourceTree = "<group>"; };
 		34B6B2032BDC304B005C45F5 /* ImageDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataRepository.swift; sourceTree = "<group>"; };
 		34B6B2052BDC3054005C45F5 /* ImageDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataProtocol.swift; sourceTree = "<group>"; };
+		34F25B442BE0C89400A86715 /* ImageData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,7 +290,7 @@
 		34B6B1EB2BDC1D3E005C45F5 /* XCModels */ = {
 			isa = PBXGroup;
 			children = (
-				34B6B1EC2BDC1D60005C45F5 /* ImageData.xcdatamodeld */,
+				34F25B432BE0C89400A86715 /* ImageData.xcdatamodeld */,
 			);
 			path = XCModels;
 			sourceTree = "<group>";
@@ -460,10 +460,10 @@
 				34A5ABEB2BDCD05600A75982 /* ImageCache.swift in Sources */,
 				34B6B1AC2BDBE6EF005C45F5 /* MainViewController.swift in Sources */,
 				34B6B1692BDBDCE0005C45F5 /* ShowDataViewController.swift in Sources */,
-				34B6B1EE2BDC1D60005C45F5 /* ImageData.xcdatamodeld in Sources */,
 				34A5ABE62BDCCDF200A75982 /* ImageDataCell.swift in Sources */,
 				34B6B1652BDBDCE0005C45F5 /* AppDelegate.swift in Sources */,
 				34B6B1A42BDBE2C9005C45F5 /* ShowDataViewModel.swift in Sources */,
+				34F25B452BE0C89400A86715 /* ImageData.xcdatamodeld in Sources */,
 				34B6B1D12BDC1040005C45F5 /* SwinjectStoryboardExtension.swift in Sources */,
 				34A5ABE92BDCD00400A75982 /* UIImage+Extension.swift in Sources */,
 				34B6B1672BDBDCE0005C45F5 /* SceneDelegate.swift in Sources */,
@@ -823,14 +823,14 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		34B6B1EC2BDC1D60005C45F5 /* ImageData.xcdatamodeld */ = {
+		34F25B432BE0C89400A86715 /* ImageData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				34B6B1ED2BDC1D60005C45F5 /* ImageData.xcdatamodel */,
+				34F25B442BE0C89400A86715 /* ImageData.xcdatamodel */,
 			);
-			currentVersion = 34B6B1ED2BDC1D60005C45F5 /* ImageData.xcdatamodel */;
+			currentVersion = 34F25B442BE0C89400A86715 /* ImageData.xcdatamodel */;
 			name = ImageData.xcdatamodeld;
-			path = /Users/chandanasudhamadhurikandari/Desktop/CoreDataOffline/CoreDataOffline/XCModels/ImageData.xcdatamodeld;
+			path = /Users/chandanasudhamadhurikandari/CoreDataOffline/CoreDataOffline/XCModels/ImageData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
