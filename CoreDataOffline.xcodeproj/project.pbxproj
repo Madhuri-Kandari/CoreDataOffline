@@ -43,7 +43,7 @@
 		34B6B2022BDC2E59005C45F5 /* CIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6B2012BDC2E59005C45F5 /* CIError.swift */; };
 		34B6B2042BDC304B005C45F5 /* ImageDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6B2032BDC304B005C45F5 /* ImageDataRepository.swift */; };
 		34B6B2062BDC3054005C45F5 /* ImageDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6B2052BDC3054005C45F5 /* ImageDataProtocol.swift */; };
-		34F25B452BE0C89400A86715 /* ImageData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34F25B432BE0C89400A86715 /* ImageData.xcdatamodeld */; };
+		34F25B482BE0C99A00A86715 /* ImageData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34F25B462BE0C99A00A86715 /* ImageData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,7 +107,7 @@
 		34B6B2012BDC2E59005C45F5 /* CIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIError.swift; sourceTree = "<group>"; };
 		34B6B2032BDC304B005C45F5 /* ImageDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataRepository.swift; sourceTree = "<group>"; };
 		34B6B2052BDC3054005C45F5 /* ImageDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataProtocol.swift; sourceTree = "<group>"; };
-		34F25B442BE0C89400A86715 /* ImageData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageData.xcdatamodel; sourceTree = "<group>"; };
+		34F25B472BE0C99A00A86715 /* ImageData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,7 +290,7 @@
 		34B6B1EB2BDC1D3E005C45F5 /* XCModels */ = {
 			isa = PBXGroup;
 			children = (
-				34F25B432BE0C89400A86715 /* ImageData.xcdatamodeld */,
+				34F25B462BE0C99A00A86715 /* ImageData.xcdatamodeld */,
 			);
 			path = XCModels;
 			sourceTree = "<group>";
@@ -463,7 +463,7 @@
 				34A5ABE62BDCCDF200A75982 /* ImageDataCell.swift in Sources */,
 				34B6B1652BDBDCE0005C45F5 /* AppDelegate.swift in Sources */,
 				34B6B1A42BDBE2C9005C45F5 /* ShowDataViewModel.swift in Sources */,
-				34F25B452BE0C89400A86715 /* ImageData.xcdatamodeld in Sources */,
+				34F25B482BE0C99A00A86715 /* ImageData.xcdatamodeld in Sources */,
 				34B6B1D12BDC1040005C45F5 /* SwinjectStoryboardExtension.swift in Sources */,
 				34A5ABE92BDCD00400A75982 /* UIImage+Extension.swift in Sources */,
 				34B6B1672BDBDCE0005C45F5 /* SceneDelegate.swift in Sources */,
@@ -823,14 +823,13 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		34F25B432BE0C89400A86715 /* ImageData.xcdatamodeld */ = {
+		34F25B462BE0C99A00A86715 /* ImageData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				34F25B442BE0C89400A86715 /* ImageData.xcdatamodel */,
+				34F25B472BE0C99A00A86715 /* ImageData.xcdatamodel */,
 			);
-			currentVersion = 34F25B442BE0C89400A86715 /* ImageData.xcdatamodel */;
-			name = ImageData.xcdatamodeld;
-			path = /Users/chandanasudhamadhurikandari/CoreDataOffline/CoreDataOffline/XCModels/ImageData.xcdatamodeld;
+			currentVersion = 34F25B472BE0C99A00A86715 /* ImageData.xcdatamodel */;
+			path = ImageData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
